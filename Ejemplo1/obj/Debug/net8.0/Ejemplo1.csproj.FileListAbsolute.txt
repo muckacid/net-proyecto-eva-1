@@ -26,3 +26,18 @@ D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\refint\Ejempl
 D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
 D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
 D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.sourcelink.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
