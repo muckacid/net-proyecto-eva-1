@@ -12,11 +12,12 @@ namespace Ejemplo1.Model
         //public void setId(int id)
         //{
         //    this.id = id;
-        //}
+        //}x
 
         public Libro()
         {
         }
+
         public Libro(int id, string titulo, string autor, string genero, string isbn)
         {
             this.Id = id;

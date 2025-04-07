@@ -16,7 +16,7 @@ namespace Ejemplo1.PModel
             this.Opciones = new List<Item>();
         }
 
-        public string Imprimir()
+        public override string ToString()
         {
             string linea = "+-------------------------+";
             string titulo = "|      Menu de libros     |";
@@ -33,14 +33,6 @@ namespace Ejemplo1.PModel
             }
 
             res += linea + salto;
-
-
-
-
-
-
-
-
 
             return res;
         }

@@ -1,4 +1,5 @@
 ﻿// REFERENCIAS
+using System;
 using Ejemplo1.Model;
 using Ejemplo1.PModel;
 
@@ -20,6 +21,41 @@ void listarLibros()
     Console.WriteLine("---------------------------------");
 }
 
+int ObtenerPosicion(List<Item> lista, int opcion)
+{
+    int posicion = -1;
+    foreach (Item item in lista)
+    {
+        if (opcion == item.IdOpcion)
+        {
+            posicion = item.IdOpcion;
+            break;
+        }
+    }
+    return posicion;
+}
+
+Libro crearLibro()
+{
+    Libro libro = new Libro();
+    Console.Write("Ingresar el titulo del libro: ");
+    string tituloLibro = Console.ReadLine();
+    libro.Titulo = tituloLibro;
+
+    Console.Write("Ingresar el autor del libro: ");
+    string autorLibro = Console.ReadLine();
+    libro.Autor = autorLibro;
+
+    Console.Write("Ingresar el genero del libro: ");
+    string generoLibro = Console.ReadLine();
+    libro.Genero = generoLibro;
+
+    Console.Write("Ingresar el isbn del libro: ");
+    string isbnLibro = Console.ReadLine();
+    libro.Isbn = isbnLibro;
+
+    return libro;
+}
 
 
 
@@ -28,10 +64,17 @@ void listarLibros()
 bool run = true;
 while (run)
 {
-    Console.WriteLine(menu.Imprimir());
+    Console.WriteLine(menu);
     Console.Write("Ingrese una opción: ");
-    int opcion = int.Parse(Console.ReadLine());
-    Console.WriteLine($"->{opcion}");
+    string txt = Console.ReadLine();
+
+    /// VALIDACION
+    int opcion = int.Parse(txt);
+    ////
+    Console.Clear();
+    //string label = ObtenerOpcionTxt(menu.Opciones, opcion);
+    string alternativa = menu.Opciones[ObtenerPosicion(menu.Opciones, opcion)].Label;
+    Console.WriteLine($"La opcion ingresada es: {opcion} | {alternativa}"); ////???limpiar pantalla
     switch (opcion)
     {
         case 0:
@@ -40,15 +83,38 @@ while (run)
             break;
         case 1:
             Console.WriteLine("Agregar");
+            Libro libro = crearLibro();
+            listaDeLibros.Add(libro);
             break;
         case 2:
             Console.WriteLine("Eliminar");
+            Console.WriteLine("Ingrese el id del libro que desea eliminar: ");
+            int idLibro = int.Parse(Console.ReadLine());
+
+            
+
+            //listaDeLibros.Remove();
             break;
         case 3:
             Console.WriteLine("Modificar");
             listarLibros();
             Console.WriteLine("Ingrese el id del libro que desea modificar: ");
-            int idLibro = int.Parse(Console.ReadLine());
+            int idLibroM = int.Parse(Console.ReadLine());
+            bool encontroElLibro = false;
+            foreach (Libro libroI in listaDeLibros)
+            {
+                if (libroI.Id == idLibroM)
+                {
+                    Libro libroM = crearLibro();
+                    Console.WriteLine("Se ha modificado el libro con exito!");
+                    Console.WriteLine($"-> {libroM}");
+                    encontroElLibro = true;
+                }
+            }
+            if (!encontroElLibro)
+            {
+                Console.WriteLine("La id ingresada no se encontro!");
+            }
 
 
 
